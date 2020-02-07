@@ -10,6 +10,8 @@ import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 
+// ChessMatch Linha 82
+
 public class Program {
 
     public static void main(String[] args) {
@@ -46,6 +48,7 @@ public class Program {
                 System.out.println(i.getMessage());
                 sc.nextLine();
             }
+
         }
         UI.clearScreen();
         UI.printMatch(chessMatch, captured);
